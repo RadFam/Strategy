@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d4968f973d9f444836f0c9e49591fe, type: 3}
+  m_Name: SpecialForces
+  m_EditorClassIdentifier: 
+  unitSprite: {fileID: 21300008, guid: 6e2a0f69defafe3469da2b57d627b541, type: 3}
+  unitName: Special Forces
+  unitAmount: 20
+  unitCost: {x: 50, y: 0, z: 0}
+  unitRecruitmentTime: 40
+  fullBonuses:
+  - unitBonus: {fileID: 11400000, guid: 446c8b9e26b254f4fa24f447e9b821d7, type: 2}
+    bonusMaxCount: 2
+  - unitBonus: {fileID: 11400000, guid: 3814ed301045cb44883cade9a201cd1f, type: 2}
+    bonusMaxCount: 2
+  - unitBonus: {fileID: 11400000, guid: 6a167c795c2a10f4799ee01e575b0fdf, type: 2}
+    bonusMaxCount: 2
+  - unitBonus: {fileID: 11400000, guid: 341bd0944864ae6498f3b253b6bca1c3, type: 2}
+    bonusMaxCount: 2

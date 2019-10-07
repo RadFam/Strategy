@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffaeb43fb289fd1489fa483a7bcdb042, type: 3}
+  m_Name: Barracks
+  m_EditorClassIdentifier: 
+  maxLevels: 3
+  levelSlots: 030000000400000005000000
+  factorySprite: []
+  factoryName:
+  - Barracks_01
+  - Barracks_02
+  - Barracks_03
+  primaryCost: 200
+  updateCost: fa000000f4010000
+  primaryConstructTime: 70
+  updateConstructTime:
+  - 150
+  - 250
+  fullContent:
+  - actualUnits:
+    - Planetary Defence
+    actualBonuses: []
+    actualIcons:
+    - {fileID: 21300000, guid: 6e2a0f69defafe3469da2b57d627b541, type: 3}
+    actualBonusIcons: []
+  - actualUnits:
+    - Planetary Defence
+    - Imperial Guard
+    - Heavy Infantry
+    actualBonuses:
+    - Super Bolter
+    - Heavy Gun
+    actualIcons:
+    - {fileID: 21300000, guid: 6e2a0f69defafe3469da2b57d627b541, type: 3}
+    - {fileID: 21300002, guid: 6e2a0f69defafe3469da2b57d627b541, type: 3}
+    - {fileID: 21300004, guid: 6e2a0f69defafe3469da2b57d627b541, type: 3}
+    actualBonusIcons:
+    - {fileID: 21300000, guid: e728dd1f4e970914d8c393452ddad141, type: 3}
+    - {fileID: 21300002, guid: e728dd1f4e970914d8c393452ddad141, type: 3}
+  - actualUnits:
+    - Planetary Defence
+    - Imperial Guard
+    - Heavy Infantry
+    - Artillery Squad
+    - Special Forces
+    actualBonuses:
+    - Super Bolter
+    - Heavy Gun
+    - Flash Laser
+    - Speed Engine
+    actualIcons:
+    - {fileID: 21300000, guid: 6e2a0f69defafe3469da2b57d627b541, type: 3}
+    - {fileID: 21300002, guid: 6e2a0f69defafe3469da2b57d627b541, type: 3}
+    - {fileID: 21300004, guid: 6e2a0f69defafe3469da2b57d627b541, type: 3}
+    - {fileID: 21300006, guid: 6e2a0f69defafe3469da2b57d627b541, type: 3}
+    - {fileID: 21300008, guid: 6e2a0f69defafe3469da2b57d627b541, type: 3}
+    actualBonusIcons:
+    - {fileID: 21300000, guid: e728dd1f4e970914d8c393452ddad141, type: 3}
+    - {fileID: 21300002, guid: e728dd1f4e970914d8c393452ddad141, type: 3}
+    - {fileID: 21300004, guid: e728dd1f4e970914d8c393452ddad141, type: 3}
+    - {fileID: 21300006, guid: e728dd1f4e970914d8c393452ddad141, type: 3}
